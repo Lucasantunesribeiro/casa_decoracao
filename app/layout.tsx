@@ -16,6 +16,14 @@ export const metadata: Metadata = {
   description: SITE_CONFIG.description,
   keywords: "móveis, decoração, design de interiores, peças exclusivas, curadoria, home decor",
   authors: [{ name: SITE_CONFIG.name }],
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+  },
   openGraph: {
     title: `${SITE_CONFIG.name} - Móveis e Decoração Exclusivos`,
     description: SITE_CONFIG.description,
